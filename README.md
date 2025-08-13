@@ -49,4 +49,4 @@ While diodes could be installed inside the switch footprint, the assumption here
 | Reset switch (SMT, 4×4 mm)   | 2        | 0.8 mm height recommended; optional—can short with tweezers instead |
 | Feet       | 8        | Any shape/size; should be taller than screw heads                   |
 | BLE port cover    | 2        | Separate model available                                            |
- 
+| 4.7kΩ Resistor 0603 | 1 | For the hybrid connection between Wireless and Wired |
