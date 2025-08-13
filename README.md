@@ -23,9 +23,8 @@ It is designed under the assumption of **3-axis CNC machining** with minimal too
 I am not a machining expert, so if you have suggestions for improvement, please share them.
 
 Case variants:
- - Hybrid: both
- - Wired: Interconnection USB-C port.
- - Wireless: BLE signal port, Power switch port.
+ - Hybrid
+ - Wireless Only: without Interconnection USB-C port.
 
 ## PCB
 
