@@ -10,7 +10,7 @@ A wireless/wired 3x5+2 split keyboard using **Cherry MX ULP** switches.
 
 * Supports wireless and wired.
   - Hybrid: One firmware. BLE or Wired between halves. Runtime switching. BLE or USB via Host.
-  - Single: BLE Firmware or Wired firmware. BLE or USB via Host.
+  - Single: BLE Firmware or Wired firmware. BLE or USB via Host or Dongle.
 * Default aluminum case (other materials optional).
 * ZMK firmware support.
 * Choc spacing layout.
