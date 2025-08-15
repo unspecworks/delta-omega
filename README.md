@@ -13,12 +13,16 @@ A wireless/wired 3x5+2 split keyboard using **Cherry MX ULP** switches.
 ![protov1](./images/do5.webp)
 quite nice!
 
-### Prototype TODO List
+### Next (and Last) Prototype TODO List
 - [ ] Dropping support wired mode.
 - [ ] Thumbcluster adjustment.
 - [ ] Thumbcluster outer key angle adjustment.
 - [ ] How to stuck them together? magnets? or not to be.
 - [ ] Just XIAO nRF52840, with Diodes. not Plus.
+- [ ] Add some high-profile keycap models (like the KLP Lame) for people who want everything in one or using own carrying case. and wants to avoid touching the cases.
+- [ ] Remove ble signal port's notch. for easy cover printing.
+- [ ] Support hand solder. (maybe need to adding bottom plate)
+- [ ] Support Kailh PG1316s for alternative switches. (merging two foot prints if possible)
 
 ## Overview
 
