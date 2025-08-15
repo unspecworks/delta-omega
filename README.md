@@ -1,10 +1,24 @@
 > [!WARNING]
 > work in progress.
  
+ ![main](./images/do7.webp)
+ ![alt](./images/do3.webp)
 
 # DELTA OMEGA
 
 A wireless/wired 3x5+2 split keyboard using **Cherry MX ULP** switches.
+
+
+## Prototype v1
+![protov1](./images/do5.webp)
+quite nice!
+
+### Prototype TODO List
+- [ ] Dropping support wired mode.
+- [ ] Thumbcluster adjustment.
+- [ ] Thumbcluster outer key angle adjustment.
+- [ ] How to stuck them together? magnets? or not to be.
+- [ ] Just XIAO nRF52840, with Diodes. not Plus.
 
 ## Overview
 
@@ -44,7 +58,7 @@ While diodes could be installed inside the switch footprint, the assumption here
 
 | Item    | Quantity | Notes    |
 | -------------------------------- | -------- | ------------------------------------------------------------------- |
-| Seeed XIAO nRF52840 Plus   | 2        | Controller                                                          |
+| Seeed XIAO nRF52840 Plus     | 2        | Controller                                                          |
 | PCB (Left + Right)   | 1 each   | Ordered separately for cleaner edges                                |
 | Case (Left + Right)     | 1 each   | Aluminum by default                                                 |
 | Cherry MX ULP switches   | 34       | -                                                                   |
