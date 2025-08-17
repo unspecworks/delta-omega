@@ -1,5 +1,50 @@
 > [!WARNING]
 > work in progress.
+
+
+## Prototype v1
+![protov1](./images/do5.webp)
+quite nice!
+
+### Next (and Last) Prototype TODO List
+- [x] Dropping support wired mode.
+- [x] Thumbcluster adjustment.
+- [x] Thumbcluster outer key angle adjustment.
+- [ ] How to stuck them together? magnets? or not to be.
+- [x] Just XIAO nRF52840, with Diodes. not Plus.
+- [ ] Add some high-profile keycap models (like the KLP Lame) for people who want everything in one or using own carrying case. and wants to avoid touching the cases.
+- [ ] Remove ble signal port's notch. for easy cover printing.
+- [x] Support hand solder. (maybe need to adding bottom plate)
+- [x] Support Kailh PG1316s for alternative switches. (merging two foot prints if possible)
+ 
+#### Aug 17 Update
+
+* **Switch Footprint**
+  
+  Reworked the switch footprint for compatibility with diodes and PG1316s, and also to allow for hand soldering. Soldering might still be tricky, but I think it’s a solid approach.
+
+* **Thumb Cluster**
+  
+  Adjusted the angle of the outer thumb keys from 7° to 2° and moved them slightly further outward.
+
+* **MCU Controller**
+  
+  Changed to the XIAO nRF52840 (standard model). Also tweaked its placement and made it more hand-soldering friendly. This may make the keyboard’s underside look a bit ugly.
+
+* **Case & Magnets**
+  
+  Added spots for three 8 mm diameter neodymium magnets (top-left, bottom-left, top-right) so the two halves can be attached face-to-face for carrying.
+
+  * This overlaps with the space for the USB-C receptacle used for interconnection. So, wired mode will either no longer be supported, or you’ll have to skip the magnets.
+  * Even if unused, the USB-C MP’s THT pins may still leave an empty port on the case, which could be a cosmetic issue.
+  * Since the halves snap tightly together, some kind of surface protection may be needed.
+
+* **MagSafe Consideration**
+  
+  Need to check if there’s enough bottom space for thin magnets or metal stickers to work with MagSafe. The central mounting screw might block an ideal position. otherwise, a separate MagSafe adapter design might be required.
+ 
+
+---
  
  ![main](./images/do7.webp)
  ![alt](./images/do3.webp)
@@ -8,21 +53,6 @@
 
 A wireless/wired 3x5+2 split keyboard using **Cherry MX ULP** switches.
 
-
-## Prototype v1
-![protov1](./images/do5.webp)
-quite nice!
-
-### Next (and Last) Prototype TODO List
-- [ ] Dropping support wired mode.
-- [ ] Thumbcluster adjustment.
-- [ ] Thumbcluster outer key angle adjustment.
-- [ ] How to stuck them together? magnets? or not to be.
-- [ ] Just XIAO nRF52840, with Diodes. not Plus.
-- [ ] Add some high-profile keycap models (like the KLP Lame) for people who want everything in one or using own carrying case. and wants to avoid touching the cases.
-- [ ] Remove ble signal port's notch. for easy cover printing.
-- [ ] Support hand solder. (maybe need to adding bottom plate)
-- [ ] Support Kailh PG1316s for alternative switches. (merging two foot prints if possible)
 
 ## Overview
 
