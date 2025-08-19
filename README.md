@@ -16,7 +16,31 @@ quite nice!
 - [ ] Remove ble signal port's notch. for easy cover printing.
 - [x] Support hand solder. (maybe need to adding bottom plate)
 - [x] Support Kailh PG1316s for alternative switches. (merging two foot prints if possible)
- 
+
+
+#### Aug 19 Update
+
+* **Reset Switch**
+  
+  Changed the upward-facing SMD reset switch to a side-facing SMD switch and moved it right next to the power switch.
+
+* **PCB Options**
+  
+  Planning to upload multiple PCB choices. The default thickness will be 1.6 mm, but users can opt for a 0.8 mm PCB with an additional 0.8 mm cover layer (PCB or CFRP) to build in their preferred style.
+
+* **Soldering Versions**
+  
+  Will upload both an all-SMD version and a hand-solder–friendly version of the PCB.
+
+* **Wired Support**
+  
+  Completely removed wired support. However, TX and RX pins are left unused, and I left space for a USB-C receptacle footprint. Anyone who wants wired can add the footprint and modify the case accordingly.
+
+* **BLE Reception**
+  
+  BLE reception is generally fine, but I’ve made some extra improvements just in case.
+
+
 #### Aug 17 Update
 
 * **Switch Footprint**
