@@ -10,12 +10,28 @@ quite nice!
 - [x] Dropping support wired mode.
 - [x] Thumbcluster adjustment.
 - [x] Thumbcluster outer key angle adjustment.
-- [ ] How to stuck them together? magnets? or not to be.
+- [x] How to stuck them together? magnets? or not to be.
 - [x] Just XIAO nRF52840, with Diodes. not Plus.
 - [ ] Add some high-profile keycap models (like the KLP Lame) for people who want everything in one or using own carrying case. and wants to avoid touching the cases.
-- [ ] Remove ble signal port's notch. for easy cover printing.
+- [x] Remove ble signal port's notch. for easy cover printing.
 - [x] Support hand solder. (maybe need to adding bottom plate)
 - [x] Support Kailh PG1316s for alternative switches. (merging two foot prints if possible)
+
+
+#### Aug 23 Update
+
+
+* **Battery Indicator LED**
+
+  Added a single NeoPixel LED for battery status. Since this is the first implementation, I’m not sure how well it will work. if the final prototype performs well, I’ll keep it, otherwise I’ll remove it. The LED won’t be directly exposed (no holes), but instead I’m trying an ambient style that should still be noticeable. For black-finished cases, some extra work might be needed to make it visible enough.
+
+*	**Corner Screw & PCB Outline**
+ 
+    Extended the PCB outline slightly to accommodate the corner screw. This might make the bottom shape look a bit less clean, but it’s to maintain sturdiness while keeping the form factor. It also allows enough space to attempt proper countersinking.
+
+
+This will probably be the last update before ordering the final prototype. After that, I’ll move on to documentation.
+
 
 
 #### Aug 19 Update
