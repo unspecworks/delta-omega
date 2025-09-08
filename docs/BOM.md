@@ -12,3 +12,8 @@
 | Batteries        | 3.7 V LiPo                                                 | 2        | Maximum size: 25.2 mm × 17.7 mm × 4.2 mm                             |
 | Screws           | M2 × 4 mm                                                  | 10       | If countersink is not used, choose ultra-low head screws (~0.8 mm)   |
 | Magnets          | Rounded, OD 8 mm, 3 mm thickness, minimum N52 grade        | 6        | Optional                                                             |
+
+
+## Next Steps
+
+- [Build Guides](./BUILD_GUIDES.md)

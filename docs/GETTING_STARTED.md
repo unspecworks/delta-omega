@@ -121,6 +121,9 @@ Three magnets can be installed inside the case to allow the halves to snap toget
 
 ## Indicator LED
 
+> [!WARNING]
+> This feature still needs some work. planning to customize [caksoylar/zmk-rgbled-widget](https://github.com/caksoylar/zmk-rgbled-widget) for it, but it could end up failing.
+
 ![LED](./images/led_indicator.png)
 
 DELTA OMEGA supports an optional **indicator LED**, which can be used for battery level or Bluetooth profile status.
