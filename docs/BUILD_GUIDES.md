@@ -2,15 +2,14 @@
 
 This document covers the **hand-solder version** of the build process.
 
----
-
 ## Required Tools and Materials
 - Soldering iron
 - Solder wire
 - Flux
 - Ventilation system
 - Knife or precision cutter
-- silicone adhesive or cyanoacrylate 
+- Silicone adhesive or cyanoacrylate
+- Multimeter
 
 If working with a mouse-bited PCB, you will also need:
 - Mask
@@ -20,8 +19,6 @@ If working with a mouse-bited PCB, you will also need:
 
 > [!CAUTION]
 > Always prioritize safety. Proper ventilation, a clean workspace, and appropriate protective equipment are **mandatory**, not optional.
-
----
 
 ## Power Switch
 
@@ -37,8 +34,6 @@ Correct alignment is essential (the boss features will help position the part).
 > [!CAUTION]
 > Keep the switch in the **OFF position (all the way to the right)** during the entire build. This is critical.
 
----
-
 ## Reset Switch
 
 ![Reset Switch](./images/resetswitch.png)
@@ -51,22 +46,6 @@ The process is nearly identical to the power switch:
 
 As with the power switch, correct alignment is important (boss features assist here).
 
----
-
-## LED (Optional)
-
-![LED](./images/led.png)
-
-1. Identify orientation: look for the **triangular corner marking** on the LED package. Match it with the silkscreen on the PCB.
-2. Pre-solder one pad.
-3. Place the LED in the correct orientation and reflow.
-4. Complete soldering of the remaining pads.
-
-> [!CAUTION]
-> LEDs are sensitive to heat. Use the proper temperature (generally below 350 °C) and limit contact time to **under 5 seconds**. Allow sufficient cooling between solder joints.
-
----
-
 ## Diodes
 
 ![Diode](./images/diodes.png)
@@ -75,9 +54,7 @@ As with the power switch, correct alignment is important (boss features assist h
 2. Due to limited space (ULP switches share space originally intended for LEDs), apply a **minimal solder amount**, centered between pads.
 
 > [!TIP]
-> After soldering, temporarily place the switch above the diode to confirm there is no interference.
-
----
+> After soldering, temporarily place the switch above the diode to confirm there is no interference. and testing!
 
 ## Switches
 
@@ -104,8 +81,6 @@ Flip the board to solder the switch contact points:
 > [!TIP]
 > Above each switch are two small test pads. Use a multimeter in diode mode to confirm continuity (flow direction: right → left).
 
----
-
 ## MCU Controller
 
 ![Seeed XIAO nRF52840](./images/xiao_summary.png)
@@ -127,8 +102,6 @@ Flip the board to solder the switch contact points:
 4. On the PCB backside, solder the 4 additional connection points.
 5. As with the switches, ensure solder bonds to both the XIAO and PCB.
 
----
-
 ## Battery
 
 ![Battery](./images/battery.png)
@@ -144,19 +117,15 @@ Flip the board to solder the switch contact points:
 3. Double-check polarity (red = positive, black = negative).
 4. Insulate the positive terminal with RTV silicone, Kapton tape, or another reliable method.
 
----
-
 ## Magnet (Optional)
 
 ![Magnets](./images/magnets.png)
 
-Install magnets so that the polarity between the left and right cases is **aligned correctly**. ensuring they attract each other when closed.  
+Install magnets so that the polarity between the left and right cases is **aligned correctly**. ensuring they attract each other when closed.
 
-Secure the magnets in place using **silicone adhesive** or **cyanoacrylate (instant glue)**.  
+Secure the magnets in place using **silicone adhesive** or **cyanoacrylate (instant glue)**.
 
 If preferred, you can also print additional mounting parts to hold the magnets instead of adhesive.
-
----
 
 ## Case Assembly
 
@@ -169,8 +138,6 @@ If preferred, you can also print additional mounting parts to hold the magnets i
 
 3. Fasten the PCB to the case using screws. Tightening should be firm but not excessive.
 4. If using a cover plate, place it before fastening screws.
-
----
 
 ## Finish!
 

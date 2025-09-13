@@ -5,7 +5,6 @@
 
 A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 
----
 
 ## Overview
 
@@ -14,13 +13,11 @@ A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 - Wireless
 - CNC aluminum case
 
----
 
 ## Parameters
 
 ![Dimension](./docs/images/dimension.png)
 
----
 
 ## Documentation
 
@@ -36,7 +33,6 @@ A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 - Keycaps
   - [Delta ULP Keycap](https://github.com/unspecworks/delta-ulp-keycap)
 
----
 
 ## Acknowledgments and Inspirations
 
@@ -47,13 +43,11 @@ A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 - [ceoloide/ergogen-footprints](https://github.com/ceoloide/ergogen-footprints)
 - [kiswitch/kiswitch](https://github.com/kiswitch/kiswitch)
 
----
 
 ## Limitations and Disclaimer
 
 This is a hobby-driven project. Some aspects may be incomplete, imperfect, or problematic. Use this project **at your own risk**, and note that no warranties or guarantees are provided.
 
----
 
 ## License
 

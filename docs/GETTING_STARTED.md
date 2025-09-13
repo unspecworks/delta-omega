@@ -3,8 +3,6 @@
 Please read this document carefully before beginning your build.
 It may be long and tedious, but every section is written with only the most essential information in mind.
 
----
-
 ## Step 1: Choosing Your Switches
 
 This keyboard supports **Cherry MX ULP** or **Kailh PG1316S** switches.
@@ -31,8 +29,6 @@ Developed by Kailh, with specifications and mechanism very similar to Cherry MX 
 ### Which Should You Choose?
 It largely depends on availability. Due to market scarcity, the **best switch is usually the one you can actually get** at the time of building.
 
----
-
 ## Keycaps
 
 The DELTA OMEGA uses **Choc spacing (18 × 17 mm)**.
@@ -53,14 +49,10 @@ The DELTA OMEGA prioritizes portability, so the case is slightly taller than the
 - Ideally, the keycap should sit just below the case edge (≈0.3 mm).
 - Some users may find this uncomfortable. consider high-profile keycaps as an alternative.
 
----
-
 ## Soldering
 
 Both switch types are SMT by default, designed for hot plate or reflow soldering.
 To make the board more approachable, footprints were modified for **hand soldering**. This still requires moderate skills.
-
----
 
 ## PCB
 
@@ -92,8 +84,6 @@ If not an issue, you can freely choose thickness.
 > [!TIP]
 > Customize your cover with some designs.
 
----
-
 ## Case
 
 The case is recommended to be **CNC aluminum**.
@@ -117,24 +107,19 @@ Three magnets can be installed inside the case to allow the halves to snap toget
 - This is optional; if you’re concerned about scratches, consider alternative storage solutions.
 - Refer to the BOM for recommended magnet specifications (tested values).
 
----
+### CNC Experience with JLC
 
-## Indicator LED
+For prototyping, I placed around six CNC orders from JLCCNC. Overall, the quality was acceptable: some uneven chamfering and minor surface scratches (barely noticeable) were present. But one piece arrived slightly warped(deformation), which is understandable given the hollow structure and thin sidewalls. so it carries an inherent risk of deformation. In my case, about 0.3 mm of tolerance shift occurred, requiring some manual adjustment with hand tools.
 
-> [!WARNING]
-> This feature still needs some work. planning to customize [caksoylar/zmk-rgbled-widget](https://github.com/caksoylar/zmk-rgbled-widget) for it, but it could end up failing.
+If you encounter similar issues, it would be a good idea to discuss them directly with JLC and work out possible solutions.
 
-![LED](./images/led_indicator.png)
+## Battery
 
-DELTA OMEGA supports an optional **indicator LED**, which can be used for battery level or Bluetooth profile status.
+You can use a 3.7V Li-Po battery. The size must fit within **25.2 mm × 17.7 mm × 4.2 mm**.
+However, the commonly available **401725** model may not fit properly. This is because typical specifications often exclude the size of the protection circuit, and lithium polymer batteries tend to have significant packaging tolerances.
 
-- To maintain a clean exterior, no holes or slots are cut for the LED.
-- Instead, the LED shines through indirectly, creating an **ambient glow**.
+Be sure to check the actual dimensions before purchasing. Do not force the battery into place.
 
-> [!TIP]
-> On black anodized cases, light reflection may be limited. If brightness is insufficient, consider adding reflective tape inside the case.
-
----
 
 ## Next Steps
 
