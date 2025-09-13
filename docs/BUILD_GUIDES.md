@@ -75,9 +75,6 @@ Flip the board to solder the switch contact points:
 - Ensure good contact between the switch terminals and the through-hole walls.
 - Use flux and controlled heat so solder bonds properly to both.
 
-> [!WARNING]
-> For **Cherry MX ULP**, the right-side through-hole is positioned slightly outward to maintain compatibility with Kailh PG1316s. Excess solder flowing outward may block switch operation. Aim the solder inward, merging both contacts toward the center.
-
 > [!TIP]
 > Above each switch are two small test pads. Use a multimeter in diode mode to confirm continuity (flow direction: right → left).
 
