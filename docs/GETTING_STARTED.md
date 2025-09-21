@@ -7,6 +7,8 @@ It may be long and tedious, but every section is written with only the most esse
 
 This keyboard supports **Cherry MX ULP** or **Kailh PG1316S** switches.
 
+![Switches](./images/two_switch.png)
+
 ### Cherry MX ULP
 Developed by Cherry, available in both clicky and tactile versions.
 - Actuation force: 65 gf (relatively heavy)
@@ -22,7 +24,7 @@ Developed by Kailh, with specifications and mechanism very similar to Cherry MX 
 - Easier to source than Cherry MX ULP
 - Often sold together with compatible keycaps
 
-#### Where to Buy *(unverified sources. use caution)*
+#### Where to Buy *(unverified)*
 - Modulo Industries
 - Holykeebs
 
@@ -113,12 +115,23 @@ For prototyping, I placed around six CNC orders from JLCCNC. Overall, the qualit
 
 If you encounter similar issues, it would be a good idea to discuss them directly with JLC and work out possible solutions.
 
+## LED Indicator
+
+![LED Indicator](./images/led_indicator.png)
+
+The design utilizes three individual LEDs as an indirect glow indicator. The color may be chosen according to user preference; however, the default configuration is Red, Green, and Blue. Refer to the zmk-rgbled-widget documentation to adjust the settings according to your preference.
+
+When operating LEDs at 3.3 V, it is recommended to install appropriate resistors. Using resistors with lower resistance values will increase brightness, but also result in higher battery consumption and, to a lesser extent, greater load on the MCU. Note that even when identical resistor values are used, brightness may vary by LED color. Consider these factors when selecting resistor values. If uncertain, a 220Ω resistor is generally a safe and effective choice.
+
 ## Battery
 
 You can use a 3.7V Li-Po battery. The size must fit within **25.2 mm × 17.7 mm × 4.2 mm**.
 However, the commonly available **401725** model may not fit properly. This is because typical specifications often exclude the size of the protection circuit, and lithium polymer batteries tend to have significant packaging tolerances.
 
 Be sure to check the actual dimensions before purchasing. Do not force the battery into place.
+
+
+---
 
 
 ## Next Steps

@@ -33,12 +33,17 @@ A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 - Keycaps
   - [Delta ULP Keycap](https://github.com/unspecworks/delta-ulp-keycap)
 
+## Photos
+
+
+- [Gallery](./gallery/README.md)
 
 ## Acknowledgments and Inspirations
 
 - [GEIGEIGEIST/TOTEM](https://github.com/GEIGEIGEIST/TOTEM)
 - [mikeholscher/zmk-config-mikecinq](https://github.com/mikeholscher/zmk-config-mikecinq)
 - [pashutk/Cherry_MX_ULP](https://github.com/pashutk/Cherry_MX_ULP)
+- [zmk-rgbled-widget](https://github.com/caksoylar/zmk-rgbled-widget)
 - [infused-kim/kb_ergogen_fp](https://github.com/infused-kim/kb_ergogen_fp)
 - [ceoloide/ergogen-footprints](https://github.com/ceoloide/ergogen-footprints)
 - [kiswitch/kiswitch](https://github.com/kiswitch/kiswitch)

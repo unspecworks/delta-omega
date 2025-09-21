@@ -8,10 +8,11 @@ This document covers the **hand-solder version** of the build process.
 - Flux
 - Ventilation system
 - Knife or precision cutter
-- Silicone adhesive or cyanoacrylate
+- Silicone adhesive or cyanoacrylate (For magnets)
 - Multimeter
 
 If working with a mouse-bited PCB, you will also need:
+- Plier
 - Mask
 - Sandpaper
 
@@ -45,6 +46,34 @@ The process is nearly identical to the power switch:
 3. Solder the remaining three pads.
 
 As with the power switch, correct alignment is important (boss features assist here).
+
+
+## (Optional) LED
+
+![LED](./images/led.png)
+
+1. LEDs are polarized components. Even if the LEDs are of the same size, different manufacturers may indicate polarity in different ways. Refer to the corresponding datasheet to confirm the correct polarity before soldering. Align the LED according to the silkscreen markings, where the closed side represents the negative (–) terminal and the open side represents the positive (+) terminal.
+2. Apply solder to one pad, then reflow it while positioning the LED to secure it in place. After that, solder the opposite pad.
+3. The color of the LED may be selected and installed according to user preference. For reference, the MCU pins corresponding to each silkscreen text (R, G, B) are connected identically on both the left and right sides.
+
+> [!CAUTION]
+> LEDs are highly sensitive to heat. Ensure that you verify the proper soldering temperature and limit the soldering duration to prevent damage.
+
+### LED Resistors
+
+![LED Resistors](./images/led_resistors.png)
+
+1. Install three resistors for the LEDs. These components are non-polarized and therefore have no orientation requirements.
+2. Apply solder to one pad, place the resistor in position, and reflow the solder to secure it. Then proceed to solder the remaining pad.
+
+## (Optional) ESD Protection
+
+![ESD Protection](./images/esd_rc.png)
+
+1. Install the capacitor and resistor for ESD protection. There are two available mounting positions, and either component (capacitor or resistor) may be placed in either location. Both are non-polarized.
+
+2. As with previous components, apply solder to one pad, position the part, and reflow the solder to secure it. Then proceed to solder the remaining pad.
+
 
 ## Diodes
 
@@ -99,6 +128,10 @@ Flip the board to solder the switch contact points:
 4. On the PCB backside, solder the 4 additional connection points.
 5. As with the switches, ensure solder bonds to both the XIAO and PCB.
 
+![Back MCU](./images/xiao_back2.png)
+
+6. (Optional) If you intend to use the LED, solder the additional pin located below.
+
 ## Battery
 
 ![Battery](./images/battery.png)
@@ -114,7 +147,7 @@ Flip the board to solder the switch contact points:
 3. Double-check polarity (red = positive, black = negative).
 4. Insulate the positive terminal with RTV silicone, Kapton tape, or another reliable method.
 
-## Magnet (Optional)
+## (Optional) Magnet
 
 ![Magnets](./images/magnets.png)
 
@@ -122,7 +155,6 @@ Install magnets so that the polarity between the left and right cases is **align
 
 Secure the magnets in place using **silicone adhesive** or **cyanoacrylate (instant glue)**.
 
-If preferred, you can also print additional mounting parts to hold the magnets instead of adhesive.
 
 ## Case Assembly
 
