@@ -17,6 +17,8 @@ A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 
 ![Dimension](./docs/images/dimension.png)
 
+![Layout](./docs/images/layout.png)
+
 
 ## Documentation
 
