@@ -39,6 +39,8 @@ A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 
 
 - [Gallery](./gallery/README.md)
+- [Prototype Gallery](./images/README.md)
+  - Diff: Port position, Thumb-cluster layout and only hot-plate way.
 
 ## Acknowledgments and Inspirations
 
