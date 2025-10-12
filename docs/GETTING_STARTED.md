@@ -119,7 +119,7 @@ If you encounter similar issues, it would be a good idea to discuss them directl
 
 ![LED Indicator](./images/led_indicator.png)
 
-The design utilizes three individual LEDs as an indirect glow indicator. The color may be chosen according to user preference; however, the default configuration is Red, Green, and Blue. Refer to the zmk-rgbled-widget documentation to adjust the settings according to your preference.
+The design utilizes three individual LEDs as an indirect glow indicator. The color may be chosen according to user preference; however, the default configuration is Red, Green, and Blue. Refer to the [zmk-rgbled-widget](https://github.com/caksoylar/zmk-rgbled-widget) documentation to adjust the settings according to your preference.
 
 When operating LEDs at 3.3 V, it is recommended to install appropriate resistors. Using resistors with lower resistance values will increase brightness, but also result in higher battery consumption and, to a lesser extent, greater load on the MCU. Note that even when identical resistor values are used, brightness may vary by LED color. Consider these factors when selecting resistor values. If uncertain, a 220Ω resistor is generally a safe and effective choice.
 

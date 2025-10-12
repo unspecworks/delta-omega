@@ -5,15 +5,14 @@
 
 ---
 
-## File List
+## PCB List
 
 | File | Description | Note |
 |---|---|---|
-| `delta_omega_rev2` | Main Left & Right PCB with mouse-bite connection | |
-| `delta_omega_rev2_left` | Main Left PCB | |
-| `delta_omega_rev2_right` | Main Right PCB | |
-| `delta_omega_bottom.pcb` | Bottom cover PCB plate | Reversible |
-| `delta_omega_bottom_cover.dxf` | Left & Right cover CAD file (for alternative materials) | |
+| `delta-omega-rev4-handsolder-both` | Main Left & Right PCB with mouse-bite connection | MB Not tested. |
+| `delta-omega-rev4-handsolder-left` | Main Left PCB | |
+| `delta_omega_right` | Main Right PCB | |
+| `delta_omega_bottom_cover` | Bottom cover PCB plate | Reversible |
 
 ---
 

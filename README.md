@@ -1,5 +1,4 @@
-> [!WARNING]
-> Work in progress.
+![DELTA OMEGA](./gallery/d2.webp)
 
 # DELTA OMEGA
 

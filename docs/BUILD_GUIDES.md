@@ -112,8 +112,6 @@ Flip the board to solder the switch contact points:
 ![Seeed XIAO nRF52840](./images/xiao_summary.png)
 
 1. **Flash firmware first** to verify the MCU is functional.
-   - As a quick test, short GPIO pins 4 and 5 with tweezers or wire.
-   - The keyboard should register a key press (left side: **T**, right side: **Y**).
 
 2. Position the MCU. If needed, insert header pins in the top-right and bottom-left corners for stability. (Remove after soldering)
 
@@ -125,7 +123,7 @@ Flip the board to solder the switch contact points:
 
 ![Back MCU](./images/xiao_back.png)
 
-4. On the PCB backside, solder the 4 additional connection points.
+4. On the PCB backside, solder the 2 additional connection points. (Battery and Reset)
 5. As with the switches, ensure solder bonds to both the XIAO and PCB.
 
 ![Back MCU](./images/xiao_back2.png)
