@@ -1,4 +1,4 @@
-![DELTA OMEGA](./gallery/d2.webp)
+![DELTA OMEGA](./gallery/header.png)
 
 # DELTA OMEGA
 
