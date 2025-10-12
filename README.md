@@ -61,3 +61,5 @@ This is a hobby-driven project. Some aspects may be incomplete, imperfect, or pr
 ## License
 
 DELTA OMEGA is licensed under [CERN-OHL-W-2.0](./LICENSE.md).
+
+![footer](./docs/images/footer.png)
