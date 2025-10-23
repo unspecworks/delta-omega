@@ -25,8 +25,9 @@ Developed by Kailh, with specifications and mechanism very similar to Cherry MX 
 - Often sold together with compatible keycaps
 
 #### Where to Buy *(unverified)*
-- Modulo Industries
-- Holykeebs
+- Modulo Industries (US)
+- Holykeebs (US)
+- Keycapsss (EU)
 
 ### Which Should You Choose?
 It largely depends on availability. Due to market scarcity, the **best switch is usually the one you can actually get** at the time of building.
