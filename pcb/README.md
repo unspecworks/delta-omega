@@ -36,7 +36,7 @@ To place an order, you will need the **Gerber archive**. Simply upload the ZIP f
 | PCB Quantity      | As many as needed                    |                                                                      |
 | Product Type      | Industrial / Consumer Electronics    |                                                                      |
 | Different Designs | 1                                    | If uploading a combined left & right PCB Gerber, select **2**.[^1]   |
-| PCB Thickness     | 0.8 mm or 1.6 mm                     | See [Getting Started](./docs/GETTING_STARTED.md) for details         |
+| PCB Thickness     | 0.8 mm or 1.6 mm                     | See [Getting Started](./../docs/GETTING_STARTED.md) for details         |
 | PCB Color         | Your preference                      |                                                                      |
 | Surface Finish    | Your preference                      |                                                                      |
 | Mark on PCB       | Remove Mark                          | Recommended for a cleaner finish                                     |
