@@ -11,7 +11,7 @@
 |---|---|---|
 | `delta-omega-rev4-handsolder-both` | Main Left & Right PCB with mouse-bite connection | MB Not tested. |
 | `delta-omega-rev4-handsolder-left` | Main Left PCB | |
-| `delta_omega_right` | Main Right PCB | |
+| `delta-omega-rev4-handsolder-right` | Main Right PCB | |
 | `delta_omega_bottom_cover` | Bottom cover PCB plate | Reversible |
 
 ---
