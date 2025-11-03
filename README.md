@@ -28,6 +28,7 @@ A portable ultra-low-profile (ULP) wireless 3×5+2 split keyboard.
 - [Getting Started](./docs/GETTING_STARTED.md)
 - [Bill of Materials](./docs/BOM.md)
 - [Build Guides](./docs/BUILD_GUIDES.md)
+- [Video](https://youtu.be/UktrqN3MlLI)
 - [PCB](./pcb/README.md)
 - [Case](./case/README.md)
 - [ZMK Keyboard Module](https://github.com/unspecworks/zmk-keyboard-delta-omega)
