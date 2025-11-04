@@ -18,6 +18,8 @@ Developed by Cherry, available in both clicky and tactile versions.
 - Large distributors such as Mouser (very expensive)
 - Geonworks (appears to be restricted to the Korean domestic market)
 
+- Or, harvesting parts by desoldering from some commercial products. More details [here](https://github.com/pashutk/Cherry_MX_ULP).
+
 ### Kailh PG1316s
 Developed by Kailh, with specifications and mechanism very similar to Cherry MX ULP.
 - Actuation force: 35 gf, 65 gf
@@ -30,16 +32,18 @@ Developed by Kailh, with specifications and mechanism very similar to Cherry MX 
 - Keycapsss (EU)
 
 ### Which Should You Choose?
-It largely depends on availability. Due to market scarcity, the **best switch is usually the one you can actually get** at the time of building.
+It largely depends on availability. Due to market scarcity, the **best switch is usually the one you can actually get** at the time of building. and don't forget the acuation force.
 
 ## Keycaps
 
 The DELTA OMEGA uses **Choc spacing (18 × 17 mm)**.
-- Standard ULP keycaps are **16 × 16 mm**. Using them will leave visible gaps between keys. Functionally this is fine, but the look may not be satisfying.
+- Standard ULP keycaps are **16 × 16 mm**. Using them will leave visible gaps between keys. Functionally this is fine, but low height and little wider gaps with higher quality. Refer to [Dell's Stock Cherry ULP Keycap Image](./../gallery/doo4.webp) and [Custom printed Keycap Image](./../gallery/d2.webp).
 
 #### Suggested Approach
-- Consider custom-printed ULP keycaps.
-- Be aware: due to thin walls, 3D printed ULP keycaps can be fragile and prone to printing issues.
+- Consider custom-printed ULP keycaps. Be aware: due to thin walls, 3D printed ULP keycaps can be fragile and prone to printing issues.
+- You can loot keycaps from repair modules or broken parts of Dell laptop keyboards that use some Cherry MX ULP switches. Check [here](https://github.com/pashutk/Cherry_MX_ULP?tab=readme-ov-file#where-to-source) for reference.
+
+
 - Removing ULP keycaps is difficult; my chosen method is to use FDM-printed keycaps and destroy them (cut with a soldering iron or nippers) when replacements are needed.
 
 > [!TIP]
