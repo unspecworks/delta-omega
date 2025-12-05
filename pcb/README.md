@@ -13,6 +13,8 @@
 | `delta-omega-rev4-handsolder-left` | Main Left PCB | |
 | `delta-omega-rev4-handsolder-right` | Main Right PCB | |
 | `delta_omega_bottom_cover` | Bottom cover PCB plate | Reversible |
+| ... |  |  |
+| `delta-omega-rev4-smd-both` | SMD Version | :warning: NOT TESTED |
 
 ---
 
